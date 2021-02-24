@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: 'mt-compareval:0.1'
+    image: 'toshohirasawa/mt-compareval:latest'
     ports:
       - '8080:8080'
     volumes:

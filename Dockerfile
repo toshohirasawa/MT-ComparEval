@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
   php7.0-mbstring \
   php7.0-xml \
   php7.0-curl \
+  python \
   && rm -rf /var/lib/apt/lists/*
 
 # install MT-ComparEval
